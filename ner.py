@@ -46,8 +46,8 @@ def get_ner(text, path_to_jar, path_to_model):
 if __name__ == "__main__":
     
     # Paths to Stanford NER tagger model and jar file.
-    path_to_jar = "stanford-ner-2020-11-17/stanford-ner.jar"
-    path_to_model = "stanford-ner-2020-11-17/classifiers/english.all.3class.distsim.crf.ser.gz"
+    path_to_jar = "stanford_ner/stanford-ner.jar"
+    path_to_model = "stanford_ner/classifiers/english.all.3class.distsim.crf.ser.gz"
     data = pd.read_csv('dataset.csv')
 
     

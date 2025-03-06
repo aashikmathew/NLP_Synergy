@@ -29,7 +29,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_sc
 
 # If you store the downloaded .pkl file in the same directory as this Python file, leave the global EMBEDDING_FILE variable below as is.  
 # If you store the file elsewhere, you will need to update the file path accordingly.
-EMBEDDING_FILE = "Word2Vec Model.pkl"
+EMBEDDING_FILE = "Word2VecModel.pkl"
 
 # Function: load_w2v
 # filepath: path of w2v.pkl
